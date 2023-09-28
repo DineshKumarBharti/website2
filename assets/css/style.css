@@ -103,7 +103,15 @@ footer{
 }
 footer ul li{
     list-style: none;
+   
+    
 }
+footer ul li a{
+    text-decoration: none;
+    color: aqua;
+    
+}
+
 footer .links{
     width: 33%;
     padding: 10px 100px;
