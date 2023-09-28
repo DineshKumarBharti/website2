@@ -101,24 +101,38 @@ footer{
     color: #fff;
     background:#05571d;
 }
+footer ul li{
+    list-style: none;
+}
 footer .links{
     width: 33%;
     padding: 10px 100px;
     float: left;
+    
 
 }
 footer .follow{
     width: 33%;
     padding: 10px 100px;
     float: left;
-   
 }
+   
+   
 footer .copy{
     width: 34%;
     padding: 10px 100px;
     float: right;
-    text-align: right;
+    
 
+}
+footer .copy h5{
+    margin: 10px;
+    padding: 0px;
+    text-align: left;
+    color: #000;
+}
+footer .copy .all{
+    color: #cfc7c7;
 }
  /* footer part end */
 
