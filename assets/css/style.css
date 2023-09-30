@@ -152,25 +152,59 @@ footer .copy .all{
  /* footer part end */
  /* media query section start */
  @media screen and (max-width: 992px){
-    .tophead{
+    .tophead {
         height: auto;
         padding: 10px;
     }
+    footer{
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+    footer ul li {
+        display: block;
+        
+    }
+    
     .tophead ul li{
         display: block;
             } 
     header,nav{
-        padding:0px 10px;
         text-align: center;
-       
+        padding:0px 10px;
     }
- }
+    section{
+        padding:0px 0px 0px 10px;
+    }
+}
+@media screen and (max-width:767px) {
+    section main, section aside{
+        float: none;
+        text-align: center;
+        width:100%;
+        padding: 0px;
+    }
+    footer .links, footer .follow, footer .copy{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+      
+
+        
+        
+}     
  @media screen and (max-width: 575px){
-    header{
+    header,footer{
         line-height: normal;
     }
     header h1, header h3{
         display: block;
+    }
+    footer ul li {
+        display: block;
+        float: left;
+        margin: 0px;
     }
  }
  /* media query section end */
