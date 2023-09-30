@@ -75,9 +75,11 @@ section{
 section main{
     width:80%;
     float: left;
-    padding-top: 20px;
+    
     
 }
+
+
 section aside{
     width:20%;
     float: right;
@@ -148,6 +150,30 @@ footer .copy .all{
     color: #cfc7c7;
 }
  /* footer part end */
+ /* media query section start */
+ @media screen and (max-width: 992px){
+    .tophead{
+        height: auto;
+        padding: 10px;
+    }
+    .tophead ul li{
+        display: block;
+            } 
+    header,nav{
+        padding:0px 10px;
+        text-align: center;
+       
+    }
+ }
+ @media screen and (max-width: 575px){
+    header{
+        line-height: normal;
+    }
+    header h1, header h3{
+        display: block;
+    }
+ }
+ /* media query section end */
 
 
     
